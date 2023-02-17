@@ -1,0 +1,79 @@
+nav {
+  height: 15vh;
+  width: 100%;
+  background-color: orange;
+  color: rgb(241, 235, 235);
+  /* margin-bottom: 20px; */
+}
+.navitems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.navitems h2 {
+  font-size: 20px;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 1.5em;
+}
+
+.navitems button {
+  width: 10%;
+  height: 8vh;
+  border: 3px solid black;
+  border-radius: 40px;
+  background-color: #5cd814;
+  font-family: serif;
+  font-size: 20px;
+  margin: 34px 212px;
+}
+
+.fetchbtn:hover {
+  background-color: rgb(226, 244, 88);
+  cursor: pointer;
+  color: rgb(11, 16, 21);
+}
+.userdatacontainer {
+  width: 100%;
+  height: fit-content;
+  
+}
+body{
+  background-color: black;
+}
+#main {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  /* padding-top: 10vh; */
+}
+.name:hover {
+  cursor: pointer;
+  color: rgb(50, 218, 204);
+}
+
+.avatar {
+  border-radius: 20%;
+}
+
+.profile_cont {
+  border-radius:0%;
+  background-image: linear-gradient(to bottom, #15b1bf, #009dda, #0084f8, #0062ff, #2e12eb);
+   margin: 20px;
+  padding: 20px;
+  width: 25%;
+  height: 40vh;
+  text-align: center;
+  transition: transform ease 0.2s;
+  opacity: 0.8;
+  margin-top: 10vh;
+}
+
+.profile_cont:hover {
+  transform: translate(0, -50px);
+  transition-duration: 0.8;
+  opacity: 1;
+  cursor: pointer;
+}
